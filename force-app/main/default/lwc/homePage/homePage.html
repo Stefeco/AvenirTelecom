@@ -1,3 +1,35 @@
 <template>
+<div class="logo"></div>
+
+<div class="form_global">
+    
+<lightning-record-edit-form object-api-name="Lead"> 
+
+    <div class="form_left_panel">
+
+    <lightning-input-field field-name="Name" value={inputLeadName} onchange={handleChange}></lightning-input-field>
+
+    <lightning-input-field label="firstName" value={inputLeadFirstName} onchange={handleChange}></lightning-input-field>
+
+    <lightning-input-field field-name="Email" value={inputLeadEmail} onchange={handleChange}></lightning-input-field>
+
+    <lightning-input-field field-name="Phone" value={inputLeadPhone} onchange={handleChange}></lightning-input-field>
+
+    </div>
+
+    <div class="form_right_panel">
+
+    <lightning-input-field field-name="Company" value={inputLeadCompany} onchange={handleChange}></lightning-input-field>
+
+    <lightning-input-field label="offre" value={inputLeadId} onchange={handleChange}></lightning-input-field>
+
+
+    <lightning-button label="soumettre" aria-controls="" type="submit"></lightning-button>
+
+    </div>
+
+</lightning-record-edit-form>
+
+</div>
     
 </template>
