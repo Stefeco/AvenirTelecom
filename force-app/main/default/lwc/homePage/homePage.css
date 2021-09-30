@@ -1,0 +1,49 @@
+/*html {
+    background:antiquewhite;
+}*/
+
+img {
+    max-width: 50%;
+    display: block;
+    /*float: right;*/
+}
+
+div.form_global {
+    display: flexbox;
+}
+
+div.form_left_panel{
+    display: flexbox;
+    float: left;
+}
+
+div.form_right_panel{
+    display:flexbox;
+    float: right;
+}
+
+div.colSide{
+    display: none;
+}
+
+.AvTelSubmitButton {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    background-color: green;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.AvTelSubmitButton:hover {
+    background-color: 3e8e41;
+}
+
+.AvTelSubmitButton:active{
+    background-color: 3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}

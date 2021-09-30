@@ -1,6 +1,8 @@
 <template>
 <div class="logo"></div>
 
+<img src={AvTelecomImg} alt="Avenir Telecom logo"/>
+
 <div class="form_global">
     
 <lightning-record-edit-form object-api-name="Lead"> 
@@ -21,10 +23,12 @@
 
     <lightning-input-field field-name="Company" value={inputLeadCompany} onchange={handleChange}></lightning-input-field>
 
-    <lightning-input-field label="offre" value={inputLeadId} onchange={handleChange}></lightning-input-field>
+    <lightning-input-field field-name="Offre__c" value={inputLeadId} onchange={handleChange}></lightning-input-field>
+
+    <p></p>
 
 
-    <lightning-button label="soumettre" aria-controls="" type="submit"></lightning-button>
+    <lightning-button class="AvTelSubmitButton" label="soumettre" aria-controls="" type="submit"></lightning-button>
 
     </div>
 
