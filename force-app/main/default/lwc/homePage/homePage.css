@@ -13,12 +13,12 @@ div.form_global {
 }
 
 div.form_left_panel{
-    display: flexbox;
+    /*display: flexbox;*/
     float: left;
 }
 
 div.form_right_panel{
-    display:flexbox;
+    /*display:flexbox;*/
     float: right;
 }
 
@@ -28,14 +28,13 @@ div.colSide{
 
 .AvTelSubmitButton {
     display: inline-block;
-    padding: 15px 25px;
+    padding: 5px 15px;
     font-size: 24px;
     cursor: pointer;
     text-align: center;
-    background-color: green;
     border: none;
     border-radius: 15px;
-    box-shadow: 0 9px #999;
+    box-shadow: 1px 2px 2px 1px rgb(0 0 255 / 20%);
 }
 
 .AvTelSubmitButton:hover {
